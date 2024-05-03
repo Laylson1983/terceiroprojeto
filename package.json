@@ -1,0 +1,11 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/cli": "^17.3.6",
+    "g": "^2.0.1"
+  }
+}

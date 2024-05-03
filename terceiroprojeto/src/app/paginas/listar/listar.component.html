@@ -1,0 +1,16 @@
+<div class="form">
+  <input type="button" value="buscar" (click)="getList()">
+</div>
+<div class="conteiner">
+<div class="card" *ngFor="let hero of listaHerois">
+  <figure>
+    <img src="{{ hero.images.lg }}"  alt="">
+  </figure>
+  <article>
+    <h1>Nome</h1>
+  </article>
+  <article>
+    <p>{{ hero.work.occupation }}</p>
+  </article>
+</div>
+</div>
